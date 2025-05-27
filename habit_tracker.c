@@ -603,7 +603,6 @@ static void on_edit_habits(GtkButton *button, AppData *app_data) {
     gtk_scrolled_window_set_policy(GTK_SCROLLED_WINDOW(scrolled_window),
                                    GTK_POLICY_AUTOMATIC,
                                    GTK_POLICY_AUTOMATIC);
-    gtk_widget_set_size_request(scrolled_window, -1, 300);
     gtk_box_append(GTK_BOX(vbox), scrolled_window);
 
     // Separator
